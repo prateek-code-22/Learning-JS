@@ -11,7 +11,7 @@ accountName = "john"
 city = "pune"
 state = "maharastra"
 
-// let country; gives undefined
+let country; //gives undefined
 
 console.log(accountId);
 console.table([accountId, accountName, city, state])
