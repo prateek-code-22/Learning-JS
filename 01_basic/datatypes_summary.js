@@ -28,3 +28,25 @@ const myfunction = function(){
     console.log("hello world!");
 }
 
+
+// Memory management done by js itself. 
+
+// Stack (primitive), Heap (Non primitive)- changes in refernce(org value).
+
+let u1name = "sam";
+let u2name = u1name  // create copy of var to modify new value
+u2name = "david"
+console.log(u1name);
+console.log(u2name);
+
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "u1@ybl"
+}
+
+let userTwo = userOne //userTwo have userOne reference with same value
+
+console.log(userOne);
+console.log(userTwo.email);
+
